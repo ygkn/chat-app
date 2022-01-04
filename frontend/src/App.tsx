@@ -1,7 +1,13 @@
 import { VFC } from "react";
 
+import { Login } from "./component/Login";
+
 const App: VFC = () => {
-  return <div>aaaa</div>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 };
 
 export default App;
